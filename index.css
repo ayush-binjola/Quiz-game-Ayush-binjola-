@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+
+.container
+{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    background: hsl(206, 92%, 94%);
+}
+
+
+.inner-container
+{
+    width: 40vw;
+    background-color: aliceblue;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem black;
+}
+
+
+.inner-container h2
+{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.inner-container li
+{
+    list-style: none;
+    margin-top: 2rem;
+    font-size: medium;
+}
+
+input
+{
+    cursor: pointer;
+}
+
+#submit, .btn
+{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+#submit:hover
+{
+    background-color: blue;
+}
+
+
+#showscore
+{
+    background-color:wheat;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem black;
+}
+#showscore .btn
+{
+    background-color: aquamarine;
+    color: white;
+}
+
+#showscore
+{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.show-result
+{
+    display: none;
+}
